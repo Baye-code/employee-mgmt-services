@@ -1,0 +1,33 @@
+server:
+  port: 9010
+
+spring:
+  application:
+    name: employee
+
+  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/employee_db
+    user: root
+    password: Passer@1
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+        format_sql: true
+    show-sql: true
+
+logging:
+  level:
+    web: debug
+
+eureka:
+  client:
+    enabled: false
+
+
+departmentService:
+  url: http://localhost:9000/api/v1/departments/

@@ -1,0 +1,26 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: department
+
+  h2:
+    console.enabled: true
+
+  jpa:
+    show-sql: true
+    defer-datasource-initialization: true
+    database-platform: org.hibernate.dialect.H2Dialect
+
+  datasource:
+    url: jdbc:h2:mem:departments_db
+    username: sa
+    password: sa
+
+
+eureka:
+  client:
+    enabled: false
+
+
