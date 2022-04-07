@@ -40,12 +40,6 @@ public class EmployeeController {
         return new ResponseEntity<>(service.create(emp), HttpStatus.CREATED);
     }
 
-//    @PostMapping
-//    public ResponseEntity<Employee> create(@RequestBody Employee emp) {
-//        Department dept = restTemplate.getForObject(departmentServiceURL + emp.getDepartmentId(), Department.class);
-//        emp.setDepartmentCode(dept.getDepartmentCode());
-//        return new ResponseEntity<>(service.create(emp), HttpStatus.CREATED);
-//    }
 
     @PutMapping("/{id}")
     public ResponseEntity<Employee> update(@PathVariable long id, @RequestBody Employee emp) {
