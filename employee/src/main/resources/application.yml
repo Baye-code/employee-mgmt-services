@@ -20,14 +20,16 @@ spring:
         format_sql: true
     show-sql: true
 
-logging:
-  level:
-    web: debug
-
 eureka:
   client:
-    enabled: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    enabled: true
 
 
 departmentService:
-  url: http://localhost:9000/api/v1/departments/
+  url: http://DEPARTMENT/api/v1/departments/
+
+logging:
+  level:
+    web: debug

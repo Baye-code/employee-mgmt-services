@@ -10,6 +10,7 @@
     <modules>
         <module>employee</module>
         <module>department</module>
+        <module>discovery-service</module>
     </modules>
     <packaging>pom</packaging>
 <!--    <modules>-->

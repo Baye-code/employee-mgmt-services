@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="employee" />
         <module name="department" />
+        <module name="discovery-service" />
       </profile>
     </annotationProcessing>
   </component>
