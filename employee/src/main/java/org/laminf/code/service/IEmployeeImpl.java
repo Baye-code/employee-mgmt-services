@@ -1,12 +1,13 @@
 package org.laminf.code.service;
 
+import org.laminf.code.config.DepartmentClient;
 import org.laminf.code.dto.Department;
 import org.laminf.code.model.Employee;
 import org.laminf.code.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
@@ -14,18 +15,23 @@ import java.util.List;
 public class IEmployeeImpl implements IEmployee {
 
     @Autowired
-    EmployeeRepository repository;
+    private EmployeeRepository repository;
 
-    @Autowired
-    private RestTemplate restTemplate;
+    private final DepartmentClient departmentClient;
 
     @Value("${departmentService.url}")
     private String departmentServiceURL;
 
+    public IEmployeeImpl(DepartmentClient departmentClient) {
+        this.departmentClient = departmentClient;
+    }
+
     @Override
     public Employee create(Employee o) {
-        Department dept = restTemplate.getForObject(departmentServiceURL + o.getDepartmentId(), Department.class);
-        o.setDepartmentCode(dept.getDepartmentCode());
+        long id = Long.parseLong(o.getDepartmentId());
+        ResponseEntity<Department> dept = departmentClient.getById(id);
+        String deptCode = dept.getBody().getDepartmentCode();
+        o.setDepartmentCode(deptCode);
         return repository.save(o);
     }
 
