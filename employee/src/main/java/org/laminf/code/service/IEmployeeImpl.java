@@ -1,7 +1,8 @@
 package org.laminf.code.service;
 
-import org.laminf.code.config.DepartmentClient;
-import org.laminf.code.dto.Department;
+
+import org.laminf.code.clients.department.Department;
+import org.laminf.code.clients.department.DepartmentClient;
 import org.laminf.code.model.Employee;
 import org.laminf.code.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;

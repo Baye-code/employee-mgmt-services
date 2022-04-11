@@ -1,7 +1,7 @@
 package org.laminf.code;
 
-//import org.laminf.code.clients.department.DepartmentClient;
-import org.laminf.code.config.DepartmentClient;
+
+import org.laminf.code.clients.department.DepartmentClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -11,10 +11,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 @EnableEurekaClient
 @EnableFeignClients(
-//        basePackages = "org.laminf.code.clients",
-        basePackages = "org.laminf.code"
+        basePackages = "org.laminf.code.clients",
+        basePackageClasses = DepartmentClient.class
 )
-//@ComponentScan({"org.laminf.code", "org.laminf.code.config"})
 @SpringBootApplication()
 public class EmployeeApplication {
 
