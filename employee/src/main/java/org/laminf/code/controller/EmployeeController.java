@@ -1,6 +1,5 @@
 package org.laminf.code.controller;
 
-import org.laminf.code.dto.Department;
 import org.laminf.code.model.Employee;
 import org.laminf.code.service.IEmployeeImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +7,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
@@ -18,12 +16,6 @@ public class EmployeeController {
 
     @Autowired
     IEmployeeImpl service;
-
-    @Autowired
-    private RestTemplate restTemplate;
-
-    @Value("${departmentService.url}")
-    private String departmentServiceURL;
 
     @GetMapping
     public ResponseEntity<List<Employee>> getAll() {
@@ -37,8 +29,6 @@ public class EmployeeController {
 
     @PostMapping
     public ResponseEntity<Employee> create(@RequestBody Employee emp) {
-        Department dept = restTemplate.getForObject(departmentServiceURL + emp.getDepartmentId(), Department.class);
-        emp.setDepartmentCode(dept.getDepartmentCode());
         return new ResponseEntity<>(service.create(emp), HttpStatus.CREATED);
     }
 
