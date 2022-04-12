@@ -11,14 +11,10 @@ r
 Bdepartment/src/main/java/org/laminf/code/DepartmentController.java,d\f\df5f6d0cb6fd63ee253e3048c251b1b9b9694a74
 ?
 clients/pom.xml,e\8\e897e41994586ab73af075bc072526099d5eec43
-B
-department/pom.xml,2\d\2da99db138e91a9579181a19a10637f6686958fe
 o
 ?employee/src/main/java/org/laminf/code/EmployeeApplication.java,a\0\a022b05e8021ffa0d054e6b107c48dd1f3a66570
 ~
 Nclients/src/main/java/org/laminf/code/clients/department/DepartmentClient.java,9\9\9918b9b9e5d129aec725e12a39a20e65f9d020b0
-@
-employee/pom.xml,b\b\bb0fa75cda978c43befce32202bc0000f3007673
 j
 :employee/src/main/java/org/laminf/code/dto/Department.java,b\2\b2651d2fc1c89ad7c40395597ce2b5fe21723b91
 q

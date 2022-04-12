@@ -20,6 +20,9 @@ spring:
         format_sql: true
     show-sql: true
 
+  zipkin:
+    base-url: http://localhost:9411
+
 eureka:
   client:
     service-url:
@@ -33,6 +36,6 @@ departmentService:
 logging:
   file:
     path: /
-    name: application-log.txt
+    name: ${spring.application.name}-log.txt
   level:
     web: debug
