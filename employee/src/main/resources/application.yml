@@ -8,7 +8,7 @@ spring:
   datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/employee_db
-    username: root
+    username: baye
     password: Passer@1
 
   jpa:
@@ -31,5 +31,8 @@ departmentService:
   url: http://DEPARTMENT/api/v1/departments/
 
 logging:
+  file:
+    path: /
+    name: application-log.txt
   level:
     web: debug

@@ -3,6 +3,8 @@ package org.laminf.code.service;
 
 import org.laminf.code.clients.department.Department;
 import org.laminf.code.clients.department.DepartmentClient;
+import org.laminf.code.clients.notification.NotificationClient;
+import org.laminf.code.clients.notification.NotificationRequest;
 import org.laminf.code.model.Employee;
 import org.laminf.code.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,21 +21,42 @@ public class IEmployeeImpl implements IEmployee {
     private EmployeeRepository repository;
 
     private final DepartmentClient departmentClient;
+    private final NotificationClient notificationClient;
 
     @Value("${departmentService.url}")
     private String departmentServiceURL;
 
-    public IEmployeeImpl(DepartmentClient departmentClient) {
+    public IEmployeeImpl(DepartmentClient departmentClient, NotificationClient notificationClient) {
         this.departmentClient = departmentClient;
+        this.notificationClient = notificationClient;
     }
 
     @Override
-    public Employee create(Employee o) {
+    public void create(Employee o) {
+
+        // getting the Id from Department
         long id = Long.parseLong(o.getDepartmentId());
+
+        // Retrieving Department by the Id
         ResponseEntity<Department> dept = departmentClient.getById(id);
+
+        // Setting departement Code for the employee
         String deptCode = dept.getBody().getDepartmentCode();
         o.setDepartmentCode(deptCode);
-        return repository.save(o);
+        repository.saveAndFlush(o);
+
+        // Sending Notification after saving new Employee
+        Integer EmployeeId = Integer.parseInt(String.valueOf(o.getId()));
+        NotificationRequest notificationRequest = new NotificationRequest(
+                EmployeeId,
+                o.getEmail(),
+                String.format("Hi %s, welcome to Amigoscode...",
+                        o.getFullName())
+        );
+        notificationClient.sendNotification(
+                notificationRequest
+        );
+
     }
 
     @Override

@@ -1,5 +1,6 @@
 package org.laminf.code.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.laminf.code.model.Employee;
 import org.laminf.code.service.IEmployeeImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@Slf4j
 @RestController
 @RequestMapping("api/v1/employees")
 public class EmployeeController {
@@ -28,8 +30,9 @@ public class EmployeeController {
     }
 
     @PostMapping
-    public ResponseEntity<Employee> create(@RequestBody Employee emp) {
-        return new ResponseEntity<>(service.create(emp), HttpStatus.CREATED);
+    public void create(@RequestBody Employee emp) {
+        log.info("new Employee registration {}", emp);
+        service.create(emp);
     }
 
     @PutMapping("/{id}")

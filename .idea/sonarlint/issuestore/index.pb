@@ -1,5 +1,25 @@
 
-y
-Iemployee/src/main/java/org/laminf/code/repository/EmployeeRepository.java,3\3\3342eada748e6633eabd79d3d57bf87bf9491537
 i
 9department/src/main/java/org/laminf/code/IDepartment.java,d\a\da30281afff4fdf0bf9c8fd06c4735c4b151026f
+h
+8department/src/main/java/org/laminf/code/Department.java,b\f\bf6d1db7ce02c00688cd6ae9cb39fd90312b7fb4
+m
+=department/src/main/java/org/laminf/code/IDepartmentImpl.java,5\a\5a704ad9729eb8faed6a067e1930fa727981062c
+x
+Hclients/src/main/java/org/laminf/code/clients/department/Department.java,4\6\46b146f5752c72f1c431a93ab766e6c1ab63d9d7
+r
+Bdepartment/src/main/java/org/laminf/code/DepartmentController.java,d\f\df5f6d0cb6fd63ee253e3048c251b1b9b9694a74
+?
+clients/pom.xml,e\8\e897e41994586ab73af075bc072526099d5eec43
+B
+department/pom.xml,2\d\2da99db138e91a9579181a19a10637f6686958fe
+o
+?employee/src/main/java/org/laminf/code/EmployeeApplication.java,a\0\a022b05e8021ffa0d054e6b107c48dd1f3a66570
+~
+Nclients/src/main/java/org/laminf/code/clients/department/DepartmentClient.java,9\9\9918b9b9e5d129aec725e12a39a20e65f9d020b0
+@
+employee/pom.xml,b\b\bb0fa75cda978c43befce32202bc0000f3007673
+j
+:employee/src/main/java/org/laminf/code/dto/Department.java,b\2\b2651d2fc1c89ad7c40395597ce2b5fe21723b91
+q
+Aemployee/src/main/java/org/laminf/code/config/EmployeeConfig.java,0\e\0e8742cadbff6a15797496154f44aceb069b31e5

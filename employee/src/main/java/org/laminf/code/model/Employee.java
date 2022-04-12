@@ -20,6 +20,8 @@ public class Employee {
 
     private String fullName;
 
+    private String email;
+
     @Column(unique = true, name = "emp_no", length = 50)
     private String employeeNumber;
 

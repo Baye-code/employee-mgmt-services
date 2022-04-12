@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface IEmployee {
 
-    Employee create(Employee o);
+    void create(Employee o);
 
     List<Employee> getAll();
 

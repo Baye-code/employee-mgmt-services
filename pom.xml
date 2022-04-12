@@ -12,6 +12,7 @@
         <module>department</module>
         <module>discovery-service</module>
         <module>clients</module>
+        <module>notification</module>
     </modules>
     <packaging>pom</packaging>
 <!--    <modules>-->
