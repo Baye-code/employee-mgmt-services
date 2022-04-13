@@ -9,3 +9,8 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: true
+
+opentracing:
+  jaeger:
+    http-sender:
+      url: http://localhost:14268/api/traces

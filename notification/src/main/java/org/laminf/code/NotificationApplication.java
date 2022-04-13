@@ -6,9 +6,6 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableEurekaClient
-@EnableFeignClients(
-        basePackages = "org.laminf.code.clients"
-)
 @SpringBootApplication
 public class NotificationApplication {
 

@@ -21,7 +21,6 @@ spring:
     username: sa
     password: sa
 
-
 eureka:
   client:
     service-url:
@@ -30,4 +29,8 @@ eureka:
     register-with-eureka: true
     enabled: true
 
+opentracing:
+  jaeger:
+    http-sender:
+      url: http://localhost:14268/api/traces
 

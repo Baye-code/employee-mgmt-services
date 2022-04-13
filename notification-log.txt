@@ -1,0 +1,389 @@
+2022-04-13 00:00:28.271 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:00:28.287 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:00:28.314 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:00:28.314 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:00:28.316 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:00:28.360 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:00:28.361 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:00:58.384 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:00:58.385 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:00:58.385 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:00:58.385 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:00:58.388 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:00:58.389 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:00:58.390 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:01:28.400 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:01:28.401 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:01:28.401 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:01:28.401 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:01:28.403 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:01:28.403 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:01:28.403 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:01:58.406 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:01:58.406 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:01:58.406 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:01:58.406 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:01:58.409 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:01:58.409 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:01:58.409 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:02:28.413 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:02:28.413 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:02:28.413 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:02:28.413 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:02:28.415 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:02:28.415 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:02:28.416 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:02:58.428 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:02:58.428 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:02:58.429 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:02:58.429 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:02:58.431 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:02:58.431 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:02:58.431 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:03:26.136  INFO 19780 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-13 00:03:28.433 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:03:28.433 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:03:28.434 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:03:28.434 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:03:28.437 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:03:28.437 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:03:28.437 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:03:58.446 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:03:58.446 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:03:58.446 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:03:58.447 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:03:58.449 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:03:58.449 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:03:58.449 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:04:28.461 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:04:28.461 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:04:28.462 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:04:28.462 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:04:28.464 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:04:28.464 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:04:28.464 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:04:58.473 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:04:58.473 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:04:58.473 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:04:58.473 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:04:58.483 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:04:58.485 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:04:58.486 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:05:28.490 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:05:28.490 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:05:28.490 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:05:28.490 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:05:28.498 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:05:28.498 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:05:28.499 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:05:58.514 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:05:58.514 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:05:58.514 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:05:58.514 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:05:58.516 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:05:58.516 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:05:58.517 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:06:28.529 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:06:28.529 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:06:28.529 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:06:28.529 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:06:28.531 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:06:28.531 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:06:28.532 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:06:58.543 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:06:58.543 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:06:58.544 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:06:58.544 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:06:58.546 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:06:58.546 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:06:58.546 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:07:28.554 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:07:28.554 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:07:28.554 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:07:28.554 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:07:28.730 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:07:28.730 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:07:28.730 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:07:58.743 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:07:58.743 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649803406305
+2022-04-13 00:07:58.743 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:07:58.743 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:07:58.745 DEBUG 19780 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:07:58.745 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:07:58.745 DEBUG 19780 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:08:20.315  INFO 19780 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application NOTIFICATION with eureka with status DOWN
+2022-04-13 00:08:20.316  INFO 19780 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1649808500316, current=DOWN, previous=UP]
+2022-04-13 00:08:20.316  INFO 19780 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020: registering service...
+2022-04-13 00:08:20.316 DEBUG 19780 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8761/eureka/apps/NOTIFICATION
+2022-04-13 00:08:20.317 DEBUG 19780 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:08:20.326 DEBUG 19780 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.web.client.RestTemplate              : Writing [InstanceInfo [instanceId = DESKTOP-C3LGATR.mshome.net:notification:9020, appName = NOTIFICATION, hostName = DESKTOP-C3LGATR.mshome.net, status = DOWN, ipAddr = 172.31.96.1, port = 9020, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@7e864fa4] as "application/json"
+2022-04-13 00:08:20.391 DEBUG 19780 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.web.client.RestTemplate              : Response 204 NO_CONTENT
+2022-04-13 00:08:20.391  INFO 19780 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020 - registration status: 204
+2022-04-13 00:08:20.449  INFO 19780 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-13 00:08:20.453  INFO 19780 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-13 00:08:20.573  INFO 19780 --- [SpringApplicationShutdownHook] i.j.internal.reporters.LoggingReporter   : Span reported: e7ff44eea854b413:e7ff44eea854b413:0:1 - Execute
+2022-04-13 00:08:20.641  INFO 19780 --- [SpringApplicationShutdownHook] i.j.internal.reporters.LoggingReporter   : Span reported: 2c0de18f41343c1e:2c0de18f41343c1e:0:1 - Execute
+2022-04-13 00:08:20.645  INFO 19780 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-13 00:08:20.649  INFO 19780 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-13 00:08:20.652  INFO 19780 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-04-13 00:08:23.670  INFO 19780 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-04-13 00:08:23.672 DEBUG 19780 --- [SpringApplicationShutdownHook] o.s.web.client.RestTemplate              : HTTP DELETE http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020
+2022-04-13 00:08:23.672 DEBUG 19780 --- [SpringApplicationShutdownHook] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:08:23.674 DEBUG 19780 --- [SpringApplicationShutdownHook] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:08:23.675  INFO 19780 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020 - deregister  status: 200
+2022-04-13 00:08:23.722  INFO 19780 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-04-13 00:08:36.722  INFO 16320 --- [main] org.laminf.code.NotificationApplication  : Starting NotificationApplication using Java 17.0.1 on DESKTOP-C3LGATR with PID 16320 (C:\Users\bayes\Documents\IntelliJ-Workspace\employee-mgmt-services\notification\target\classes started by bayes in C:\Users\bayes\Documents\IntelliJ-Workspace\employee-mgmt-services)
+2022-04-13 00:08:36.726  INFO 16320 --- [main] org.laminf.code.NotificationApplication  : No active profile set, falling back to default profiles: default
+2022-04-13 00:08:37.618  INFO 16320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-13 00:08:37.687  INFO 16320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2022-04-13 00:08:37.946  INFO 16320 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=24729e86-f062-33bf-a052-ed45891ff300
+2022-04-13 00:08:38.038  INFO 16320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.opentracing.contrib.spring.cloud.async.DefaultAsyncAutoConfiguration$DefaultTracedAsyncConfigurerSupport' of type [io.opentracing.contrib.spring.cloud.async.DefaultAsyncAutoConfiguration$DefaultTracedAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$6d4a10dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-13 00:08:38.283  INFO 16320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.opentracing.contrib.spring.cloud.async.DefaultAsyncAutoConfiguration' of type [io.opentracing.contrib.spring.cloud.async.DefaultAsyncAutoConfiguration$$EnhancerBySpringCGLIB$$6e67e179] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-13 00:08:38.305  INFO 16320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration' of type [io.opentracing.contrib.spring.cloud.feign.FeignTracingAutoConfiguration$$EnhancerBySpringCGLIB$$5cbcecf8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-04-13 00:08:38.651  INFO 16320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9020 (http)
+2022-04-13 00:08:38.667  INFO 16320 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-13 00:08:38.667  INFO 16320 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-04-13 00:08:38.897  INFO 16320 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-13 00:08:38.898  INFO 16320 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2118 ms
+2022-04-13 00:08:39.153  INFO 16320 --- [main] o.c.s.w.s.ServerTracingAutoConfiguration : Creating FilterRegistrationBean bean with TracingFilter mapped to [], skip pattern is "/api-docs.*|/swagger.*|.*\.png|.*\.css|.*\.js|.*\.html|/favicon.ico|/hystrix.stream"
+2022-04-13 00:08:39.190 DEBUG 16320 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=-2147483648, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2022-04-13 00:08:39.191 DEBUG 16320 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2022-04-13 00:08:39.412  INFO 16320 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-13 00:08:39.473  INFO 16320 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-04-13 00:08:39.586  INFO 16320 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-13 00:08:39.696  INFO 16320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-13 00:08:39.811  INFO 16320 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-13 00:08:39.833  INFO 16320 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-04-13 00:08:40.403  WARN 16320 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2022-04-13 00:08:40.403  WARN 16320 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "notification" does not exist, skipping
+2022-04-13 00:08:40.405  WARN 16320 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2022-04-13 00:08:40.405  WARN 16320 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : sequence "notification_id_sequence" does not exist, skipping
+2022-04-13 00:08:41.720  INFO 16320 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-13 00:08:41.729  INFO 16320 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-13 00:08:42.133  INFO 16320 --- [main] o.c.s.w.s.ServerTracingAutoConfiguration : Creating WebMvcConfigurer bean with class io.opentracing.contrib.spring.web.interceptor.TracingHandlerInterceptor
+2022-04-13 00:08:42.137  WARN 16320 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-13 00:08:42.353 DEBUG 16320 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-04-13 00:08:42.408 DEBUG 16320 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-04-13 00:08:42.461 DEBUG 16320 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-04-13 00:08:42.475 DEBUG 16320 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-04-13 00:08:43.369  INFO 16320 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-04-13 00:08:44.141  WARN 16320 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-13 00:08:44.232  INFO 16320 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-04-13 00:08:44.282  INFO 16320 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-04-13 00:08:44.286  INFO 16320 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-13 00:08:44.312  INFO 16320 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-13 00:08:44.312  INFO 16320 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-13 00:08:44.312  INFO 16320 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-13 00:08:44.313  INFO 16320 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-13 00:08:44.313  INFO 16320 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-13 00:08:44.313  INFO 16320 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-04-13 00:08:44.313  INFO 16320 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-13 00:08:44.395 DEBUG 16320 --- [main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/
+2022-04-13 00:08:44.482 DEBUG 16320 --- [main] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:08:44.521 DEBUG 16320 --- [main] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:08:44.523 DEBUG 16320 --- [main] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:08:44.539  INFO 16320 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-13 00:08:44.546  INFO 16320 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-04-13 00:08:44.552  INFO 16320 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-13 00:08:44.565  INFO 16320 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1649808524564 with initial instances count: 2
+2022-04-13 00:08:44.574  INFO 16320 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application NOTIFICATION with eureka with status UP
+2022-04-13 00:08:44.575  INFO 16320 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1649808524575, current=UP, previous=STARTING]
+2022-04-13 00:08:44.577  INFO 16320 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020: registering service...
+2022-04-13 00:08:44.585 DEBUG 16320 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8761/eureka/apps/NOTIFICATION
+2022-04-13 00:08:44.586 DEBUG 16320 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:08:44.600  INFO 16320 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9020 (http) with context path ''
+2022-04-13 00:08:44.601  INFO 16320 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9020
+2022-04-13 00:08:44.610 DEBUG 16320 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.web.client.RestTemplate              : Writing [InstanceInfo [instanceId = DESKTOP-C3LGATR.mshome.net:notification:9020, appName = NOTIFICATION, hostName = DESKTOP-C3LGATR.mshome.net, status = UP, ipAddr = 172.31.96.1, port = 9020, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@44846c76] as "application/json"
+2022-04-13 00:08:44.629 DEBUG 16320 --- [DiscoveryClient-InstanceInfoReplicator-0] o.s.web.client.RestTemplate              : Response 204 NO_CONTENT
+2022-04-13 00:08:44.630  INFO 16320 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020 - registration status: 204
+2022-04-13 00:08:45.246  INFO 16320 --- [main] org.laminf.code.NotificationApplication  : Started NotificationApplication in 9.956 seconds (JVM running for 11.249)
+2022-04-13 00:09:14.559 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:09:14.560 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:09:14.560 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:09:14.563 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:09:14.563 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:09:14.569 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:09:14.572 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:09:44.576 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:09:44.576 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:09:44.577 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:09:44.577 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:09:44.581 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:09:44.581 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:09:44.581 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:10:14.588 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:10:14.588 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:10:14.589 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:10:14.589 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:10:14.591 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:10:14.591 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:10:14.592 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:10:44.606 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:10:44.606 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:10:44.607 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:10:44.607 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:10:44.609 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:10:44.609 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:10:44.610 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:10:59.095  INFO 16320 --- [http-nio-9020-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-13 00:10:59.095  INFO 16320 --- [http-nio-9020-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-13 00:10:59.095 DEBUG 16320 --- [http-nio-9020-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-04-13 00:10:59.096 DEBUG 16320 --- [http-nio-9020-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-04-13 00:10:59.096 DEBUG 16320 --- [http-nio-9020-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-04-13 00:10:59.098 DEBUG 16320 --- [http-nio-9020-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2fca9fae
+2022-04-13 00:10:59.098 DEBUG 16320 --- [http-nio-9020-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5184da2b
+2022-04-13 00:10:59.099 DEBUG 16320 --- [http-nio-9020-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-04-13 00:10:59.099  INFO 16320 --- [http-nio-9020-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-04-13 00:10:59.114 DEBUG 16320 --- [http-nio-9020-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/notification", parameters={}
+2022-04-13 00:10:59.130 DEBUG 16320 --- [http-nio-9020-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.laminf.code.controller.NotificationController#sendNotification(NotificationRequest)
+2022-04-13 00:10:59.157 DEBUG 16320 --- [http-nio-9020-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [NotificationRequest[toEmployeeId=1, toEmployeeName=serignlam@gmail.com, message=Hi Serigne Ibrahima  (truncated)...]
+2022-04-13 00:10:59.164  INFO 16320 --- [http-nio-9020-exec-1] o.l.c.controller.NotificationController  : New notification... NotificationRequest[toEmployeeId=1, toEmployeeName=serignlam@gmail.com, message=Hi Serigne Ibrahima LAM, welcome to Amigoscode...]
+2022-04-13 00:10:59.223  INFO 16320 --- [http-nio-9020-exec-1] i.j.internal.reporters.LoggingReporter   : Span reported: ccefd06923c2927b:aee55f5987f552aa:32e8a7d4b1160dd1:1 - Query
+2022-04-13 00:10:59.229  INFO 16320 --- [http-nio-9020-exec-1] i.j.internal.reporters.LoggingReporter   : Span reported: ccefd06923c2927b:d67bbd998937d187:32e8a7d4b1160dd1:1 - Query
+2022-04-13 00:10:59.262  INFO 16320 --- [http-nio-9020-exec-1] i.j.internal.reporters.LoggingReporter   : Span reported: ccefd06923c2927b:655f3644bb1e7905:32e8a7d4b1160dd1:1 - Update
+2022-04-13 00:10:59.300 DEBUG 16320 --- [http-nio-9020-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-04-13 00:10:59.300 DEBUG 16320 --- [http-nio-9020-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2022-04-13 00:10:59.300 DEBUG 16320 --- [http-nio-9020-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-04-13 00:10:59.302  INFO 16320 --- [http-nio-9020-exec-1] i.j.internal.reporters.LoggingReporter   : Span reported: ccefd06923c2927b:32e8a7d4b1160dd1:68154c769f6b578d:1 - sendNotification
+2022-04-13 00:11:14.624 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:11:14.624 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:11:14.625 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:11:14.625 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:11:14.628 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:11:14.628 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:11:14.628 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:11:44.630 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:11:44.631 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:11:44.633 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:11:44.634 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:11:44.635 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:11:44.637 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:11:44.638 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:12:14.649 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:12:14.649 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:12:14.650 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:12:14.650 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:12:14.652 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:12:14.652 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:12:14.653 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:12:44.664 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:12:44.664 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:12:44.665 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:12:44.665 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:12:44.668 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:12:44.668 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:12:44.668 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:13:14.679 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:13:14.679 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:13:14.680 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:13:14.680 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:13:14.683 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:13:14.683 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:13:14.683 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:13:44.317  INFO 16320 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-13 00:13:44.697 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:13:44.697 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:13:44.698 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:13:44.698 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:13:44.701 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:13:44.701 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:13:44.701 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:14:14.705 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:14:14.705 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:14:14.705 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:14:14.705 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:14:14.708 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:14:14.708 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:14:14.708 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:14:44.714 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:14:44.714 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:14:44.715 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:14:44.715 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:14:44.718 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:14:44.718 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:14:44.718 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:15:14.733 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:15:14.733 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:15:14.734 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:15:14.734 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:15:14.736 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:15:14.736 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:15:14.737 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:15:44.739 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:15:44.739 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:15:44.739 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:15:44.739 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:15:44.742 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:15:44.742 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:15:44.743 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:16:14.743 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:16:14.743 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:16:14.746 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:16:14.748 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:16:14.748 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:16:14.750 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:16:14.751 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:16:44.752 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:16:44.752 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:16:44.752 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:16:44.752 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:16:44.755 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:16:44.755 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:16:44.755 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:17:14.767 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:17:14.767 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:17:14.768 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:17:14.768 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:17:14.770 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:17:14.770 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:17:14.771 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:17:44.787 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:17:44.787 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:17:44.787 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:17:44.787 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:17:44.790 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:17:44.790 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:17:44.790 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:18:14.791 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:18:14.791 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:18:14.794 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:18:14.794 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:18:14.795 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:18:14.797 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:18:14.797 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:18:44.324  INFO 16320 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-13 00:18:44.795 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:18:44.795 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:18:44.798 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:18:44.798 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:18:44.799 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:18:44.801 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:18:44.801 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:19:14.804 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:19:14.804 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:19:14.805 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:19:14.805 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:19:14.807 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:19:14.807 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:19:14.808 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:19:44.824 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:19:44.824 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:19:44.825 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:19:44.825 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:19:44.836 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:19:44.837 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:19:44.838 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:20:14.851 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:20:14.852 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:20:14.851 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:20:14.853 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:20:14.855 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:20:14.855 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:20:14.855 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2022-04-13 00:20:44.865 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/delta
+2022-04-13 00:20:44.865 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:8761/eureka/apps/NOTIFICATION/DESKTOP-C3LGATR.mshome.net:notification:9020?status=UP&lastDirtyTimestamp=1649808524574
+2022-04-13 00:20:44.865 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:20:44.865 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2022-04-13 00:20:44.868 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:20:44.868 DEBUG 16320 --- [DiscoveryClient-HeartbeatExecutor-0] o.s.web.client.RestTemplate              : Response 200 OK
+2022-04-13 00:20:44.868 DEBUG 16320 --- [DiscoveryClient-CacheRefreshExecutor-0] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]

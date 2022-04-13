@@ -2,14 +2,13 @@ package org.laminf.code.service;
 
 
 import org.laminf.code.clients.department.Department;
-import org.laminf.code.clients.department.DepartmentClient;
-import org.laminf.code.clients.notification.NotificationClient;
 import org.laminf.code.clients.notification.NotificationRequest;
+import org.laminf.code.dto.Notification;
 import org.laminf.code.model.Employee;
 import org.laminf.code.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.http.ResponseEntity;
+import org.springframework.web.client.RestTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -20,29 +19,24 @@ public class IEmployeeImpl implements IEmployee {
     @Autowired
     private EmployeeRepository repository;
 
-    private final DepartmentClient departmentClient;
-    private final NotificationClient notificationClient;
+    @Autowired
+    private RestTemplate restTemplate;
 
     @Value("${departmentService.url}")
     private String departmentServiceURL;
 
-    public IEmployeeImpl(DepartmentClient departmentClient, NotificationClient notificationClient) {
-        this.departmentClient = departmentClient;
-        this.notificationClient = notificationClient;
-    }
+    @Value("${notificationService.url}")
+    private String notificationServiceURL;
 
     @Override
     public void create(Employee o) {
 
-        // getting the Id from Department
-        long id = Long.parseLong(o.getDepartmentId());
-
         // Retrieving Department by the Id
-        ResponseEntity<Department> dept = departmentClient.getById(id);
+        Department dept = restTemplate
+                .getForObject(departmentServiceURL + o.getDepartmentId(), Department.class);
 
         // Setting departement Code for the employee
-        String deptCode = dept.getBody().getDepartmentCode();
-        o.setDepartmentCode(deptCode);
+        o.setDepartmentCode(dept.getDepartmentCode());
         repository.saveAndFlush(o);
 
         // Sending Notification after saving new Employee
@@ -53,9 +47,9 @@ public class IEmployeeImpl implements IEmployee {
                 String.format("Hi %s, welcome to Amigoscode...",
                         o.getFullName())
         );
-        notificationClient.sendNotification(
-                notificationRequest
-        );
+
+        Notification notification = restTemplate
+                .postForObject(notificationServiceURL, notificationRequest, Notification.class);
 
     }
 
