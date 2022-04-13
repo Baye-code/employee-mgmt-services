@@ -15,15 +15,6 @@
         <module>notification</module>
     </modules>
     <packaging>pom</packaging>
-<!--    <modules>-->
-<!--        <module>employee</module>-->
-<!--        <module>department</module>-->
-<!--        <module>eureka-server</module>-->
-<!--        <module>clients</module>-->
-<!--        <module>notification</module>-->
-<!--        <module>apigw</module>-->
-<!--        <module>amqp</module>-->
-<!--    </modules>-->
     <name>employee-mgmt-services</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.bayecode.com</url>

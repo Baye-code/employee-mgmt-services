@@ -36,6 +36,6 @@ departmentService:
 logging:
   file:
     path: /
-    name: ${spring.application.name}-log.txt
+    name: ${spring.application.name}.log
   level:
     web: debug
