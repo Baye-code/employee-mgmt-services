@@ -38,7 +38,7 @@ eureka:
 
 logging:
   file:
-    path: /
+    path: /logs/
     name: ${spring.application.name}.log
   level:
     web: debug

@@ -17,3 +17,9 @@ eureka:
     register-with-eureka: true
   instance:
     prefer-ip-address: true
+
+logging:
+  logstash:
+    enabled: true
+    url: 127.0.0.1:5000
+    logHeaders: true

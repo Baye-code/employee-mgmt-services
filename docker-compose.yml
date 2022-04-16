@@ -57,7 +57,6 @@ services:
     networks:
       - spring
 
-
 networks:
   postgres:
     driver: bridge
