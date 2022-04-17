@@ -48,6 +48,16 @@
             <version>6.6</version>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.laminf.code</groupId>
+            <artifactId>amqp</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
             <groupId>org.laminf.code</groupId>
             <artifactId>clients</artifactId>
             <version>1.0-SNAPSHOT</version>

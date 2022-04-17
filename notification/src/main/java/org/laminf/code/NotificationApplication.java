@@ -9,7 +9,12 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients(
         basePackages = "org.laminf.code.clients"
 )
-@SpringBootApplication
+@SpringBootApplication(
+        scanBasePackages = {
+                "org.laminf.code",
+                "org.laminf.code.amqp"
+        }
+)
 public class NotificationApplication {
 
     public static void main(String[] args) {

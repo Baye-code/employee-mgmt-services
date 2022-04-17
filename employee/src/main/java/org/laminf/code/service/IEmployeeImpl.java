@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.laminf.code.amqp.RabbitMQMessageProducer;
 
 import java.util.List;
 
@@ -22,13 +23,18 @@ public class IEmployeeImpl implements IEmployee {
 
     private final DepartmentClient departmentClient;
     private final NotificationClient notificationClient;
+    private final RabbitMQMessageProducer rabbitMQMessageProducer;
 
-    @Value("${departmentService.url}")
-    private String departmentServiceURL;
+    @Value("${rabbitmq.exchanges.internal}")
+    private String internalExchange;
 
-    public IEmployeeImpl(DepartmentClient departmentClient, NotificationClient notificationClient) {
+    @Value("${rabbitmq.routing-keys.internal-notification}")
+    private String internalNotificationRoutingKey;
+
+    public IEmployeeImpl(DepartmentClient departmentClient, NotificationClient notificationClient, RabbitMQMessageProducer rabbitMQMessageProducer) {
         this.departmentClient = departmentClient;
         this.notificationClient = notificationClient;
+        this.rabbitMQMessageProducer = rabbitMQMessageProducer;
     }
 
     @Override
@@ -53,8 +59,11 @@ public class IEmployeeImpl implements IEmployee {
                 String.format("Hi %s, welcome to Amigoscode...",
                         o.getFullName())
         );
-        notificationClient.sendNotification(
-                notificationRequest
+
+        rabbitMQMessageProducer.publish(
+                notificationRequest,
+                internalExchange,
+                internalNotificationRoutingKey
         );
 
     }

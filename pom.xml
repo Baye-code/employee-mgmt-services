@@ -14,6 +14,7 @@
         <module>clients</module>
         <module>notification</module>
         <module>api-gateway</module>
+        <module>amqp</module>
     </modules>
     <packaging>pom</packaging>
     <name>employee-mgmt-services</name>

@@ -24,9 +24,17 @@ spring:
     discovery:
       enabled: true
 
-
   zipkin:
     base-url: http://localhost:9411
+
+  rabbitmq:
+    addresses: amqp://localhost:5672
+
+rabbitmq:
+  exchanges:
+    internal: internal.exchange
+  routing-keys:
+    internal-notification: internal.notification.routing-key
 
 eureka:
   client:
@@ -42,7 +50,7 @@ departmentService:
 
 logging:
   file:
-    path: /logs/
+    path: /logs
     name: ${spring.application.name}.log
   level:
     web: debug

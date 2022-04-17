@@ -14,7 +14,12 @@ import org.springframework.context.annotation.ComponentScan;
         basePackages = "org.laminf.code.clients",
         basePackageClasses = DepartmentClient.class
 )
-@SpringBootApplication()
+@SpringBootApplication(
+        scanBasePackages = {
+                "org.laminf.code",
+                "org.laminf.code.amqp"
+        }
+)
 public class EmployeeApplication {
 
     public static void main(String[] args) {
